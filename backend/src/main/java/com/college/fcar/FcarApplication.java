@@ -8,6 +8,7 @@ public class FcarApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FcarApplication.class, args);
+		System.out.println("hellow world");
 	}
 
 }
