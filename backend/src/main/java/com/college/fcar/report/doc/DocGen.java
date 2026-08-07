@@ -7,10 +7,10 @@ import java.util.List;
 @Component
 public class DocGen {
 
-    List<StreamWriter> componetnts;
+    List<StreamWriter> components;
 
     public String document(List<StreamWriter> components) {
-        this.componetnts = components;
+        this.components = components;
         //write ensemble
         writeEnsemble();
         // write header
